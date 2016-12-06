@@ -9,7 +9,7 @@ for i in abc :
             try:
                 if (i[j-3:j].isupper() and i[j+1:j+4].isupper()):
                     if (i[j-4].islower() and i[j+4].islower()) :
-                        temp  =i[j-3:j+4]
+                        temp  =i[j]
                         print temp,
             except :
                 pass
