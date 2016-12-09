@@ -17,6 +17,6 @@ for i in range(250):
         string = [x for x in string if x.isdigit()]
         string = ''.join(string)
     res = requests.get(url + string)
-    print res.text , "    " , i 
+    print res.text 
     
     
